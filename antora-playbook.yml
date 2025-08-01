@@ -4,7 +4,7 @@ site:
 content:
   sources:
     - url: https://github.com/UChicago-PULSE/mission-documentation.git
-      branches: antora-debug
+      branches: main
     - url: https://github.com/UChicago-PULSE/pulse-firmware.git
       branches: main
     - url: https://github.com/UChicago-PULSE/pulse-hardware.git
