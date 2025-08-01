@@ -1,11 +1,11 @@
 site:
-  title: PULSE-A Documentation
-  start_page: documentation::index.adoc 
+  title: "UCSP // PULSE-A Documentation"
+  start_page: documentation::index.adoc
 content:
-  sources: 
-  - url: https://github.com/UChicago-PULSE/mission-documentation.git
-    branches: antora-debug
-ui: 
+  sources:
+    - url: https://github.com/UChicago-PULSE/mission-documentation.git
+      branches: antora-debug
+ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
