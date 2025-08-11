@@ -8,9 +8,14 @@ content:
 
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/UChicago-PULSE/docs-ui/releases/latest/download/ui-bundle.zip
     snapshot: true
 asciidoc:
   extensions:
     - '@djencks/asciidoctor-mathjax'
-
+  attributes:
+    stem: latexmath
+    mathjax-tex-packages: 'amsmath amssymb physics'
+antora:
+  extensions:
+    - require: '@antora/lunr-extension' # Search
